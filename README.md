@@ -2,6 +2,8 @@
 
 This is an opensource LaTeX thesis template for XJTU B.S. candidates. It can be used directly in Overleaf.
 
+For supplements and corrections, please issue.
+
 ## Environments
 
 * Compler: XeLaTeX
