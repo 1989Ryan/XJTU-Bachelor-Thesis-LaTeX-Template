@@ -1,0 +1,16 @@
+# XJTU Bachelor thesis LaTeX template.
+
+This is an opensource LaTeX thesis template for XJTU B.S. candidates. It can be used directly in Overleaf.
+
+## Environments
+
+* Compler: XeLaTeX
+* TeX Live Version: 2016(Overleaf v1)(Legacy)
+
+## Attention
+
+This project is not checked in other platforms. 
+
+## Ack
+
+This project is modified from the Overleaf project [Doctorate Thesis LaTeX Template](https://www.overleaf.com/latex/templates/latex-template-for-doctoral-thesis-of-xjtu/bmrqcdhbdrcw) by XJTU alumni Zhang Ming, thanks for his work.
