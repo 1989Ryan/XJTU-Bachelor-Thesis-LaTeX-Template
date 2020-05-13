@@ -9,7 +9,7 @@ For supplements and corrections, please issue.
 ## Environments
 
 * Compler: XeLaTeX
-* TeX Live Version: 2016(Overleaf v1)(Legacy)
+* TeX Live Version: 2019
 
 ## Attention
 
