@@ -108,7 +108,11 @@
 	\addcontentsline{toc}{chapter}{\xiaosi #1}
 	\addcontentsline{toe}{chapter}{\xiaosi #2}  \chapter*{#1}
 }
-
+\newcommand{\Abstract}[2]{
+	\phantomsection
+	\markboth{#1}{#1}
+	\chapter*{#1}
+}
 
 
 %======================================== Header =========================================
