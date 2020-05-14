@@ -2,7 +2,7 @@
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-This is an opensource LaTeX thesis template for XJTU B.S. candidates. It can be used directly on Overleaf.
+This is an opensource LaTeX thesis template for XJTU B.S. candidates. It can be used directly on Overleaf. The overleaf template is [here](https://www.overleaf.com/latex/templates/xian-jiaotong-university-bachelor-thesis-latex-template/rdpykcmzdrjp).
 
 For supplements and corrections, please issue.
 
