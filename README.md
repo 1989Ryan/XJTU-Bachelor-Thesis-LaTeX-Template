@@ -14,7 +14,7 @@ For supplements and corrections, please issue.
 ## Attention
 
 1. This project has not been tested on other platforms.
-2. This template is written according to the requirements of 2020. Please keep up to date with the new template format yourself.
+2. This template is written according to the requirements of 2020. Please keep up to date with the latest template format requirement yourself. If there are any updates in the format requirements, please issue or take pull request. I will keep up with the latest version ASAP.
 
 ## Ack
 
