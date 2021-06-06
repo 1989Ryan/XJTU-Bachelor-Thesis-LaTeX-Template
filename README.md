@@ -4,7 +4,7 @@
 
 This is an opensource LaTeX thesis template for XJTU B.S. candidates according to the format requirement in 2020. It can be used directly on Overleaf. The overleaf template is [here](https://www.overleaf.com/latex/templates/xian-jiaotong-university-bachelor-thesis-latex-template/rdpykcmzdrjp).
 
-For supplements and corrections, please issue.
+For supplements and corrections, please issue or take pull request.
 
 ## Environments
 
