@@ -37,9 +37,10 @@ INTEGERS {
   show.note
 }
 
+%% 将如下 uppercase.name 前面改成0，解决英文姓氏全大写的问题
 FUNCTION {load.config}
 {
-  #1 'uppercase.name :=
+  #0 'uppercase.name :=  
   #3 'max.num.authors :=
   #1 'sentence.case.title :=
   #0 'link.title :=
