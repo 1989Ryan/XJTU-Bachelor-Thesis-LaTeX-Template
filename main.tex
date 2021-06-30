@@ -7,24 +7,33 @@
 \usepackage{blkarray}
 % \addtokomafont{labelinglabel}{\sffamily}
 
-
 \input{setup/package}
 \graphicspath{{figures/}}
 
 %===================================== Cover and TOC =====================================
 \begin{document}
 \input{setup/format}
+
+\begin{titlepage}   % 查重部分
+\includepdf[]{pdfs/封面.pdf}   % 查重部分
+\end{titlepage}   % 查重部分
+
 \frontmatter
 
-\input{setup/abstract}
-\input{setup/content}
+\includepdf[pages=-]{pdfs/任务书.pdf}
+\includepdf[]{pdfs/考核评议书.pdf}
+\includepdf[]{pdfs/答辩结果.pdf}
+
+\input{setup/abstract}  % 查重部分
+\input{setup/content}  % 查重部分
 \input{setup/denotation}
 
 %======================================= Main Body =======================================
 \mainmatter\defaultfont\sloppy\raggedbottom
 
-\include{body/chapter_1}
-\include{body/chapter_2}
+\include{body/chapter_1}  % 查重部分
+\include{body/chapter_2}  % 查重部分
+\include{body/chapter_3}  % 查重部分
 \include{appendix/acknowledgements}
 
 
