@@ -5,7 +5,7 @@
 
 This is an opensource LaTeX thesis template for XJTU B.S. candidates. It can be used directly on Overleaf. The overleaf template is [here](https://www.overleaf.com/latex/templates/xian-jiaotong-university-bachelor-thesis-latex-template/rdpykcmzdrjp).
 
-For supplements and corrections, please issue or take pull requist.
+For supplements and corrections, or any version updates, feel free to take issues or pull requists.
 
 ## Environments
 
