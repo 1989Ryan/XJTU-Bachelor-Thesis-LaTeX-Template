@@ -1,6 +1,6 @@
 # 西安交通大学学士论文LaTeX模板。
 
-[! [License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 这是一个开源的 LaTeX 论文模板，供西安交通大学本科生毕业设计使用。它可以直接在 Overleaf 上使用。Overleaf的模板是[这里](https://www.overleaf.com/latex/templates/xian-jiaotong-university-bachelor-thesis-latex-template/rdpykcmzdrjp)。
 
