@@ -23,6 +23,6 @@
 * 本项目是非官方的毕业设计模板，适用于2021级的毕业生。如需要官方模板，请联系你的导师。我们不对本模板所产生的的任何问题负责。
 * 这个项目还没有在其他平台上测试。
 
-## Ack
+## 致谢
 
 本项目修改自Overleaf项目[Doctorate Thesis LaTeX Template](https://www.overleaf.com/latex/templates/latex-template-for-doctoral-thesis-of-xjtu/bmrqcdhbdrcw)，由西安交通大学校友张明完成，感谢他的工作。
