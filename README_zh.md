@@ -4,7 +4,7 @@
 
 这是一个开源的 LaTeX 论文模板，供西安交通大学本科生毕业设计使用。它可以直接在 Overleaf 上使用。Overleaf的模板是[这里](https://www.overleaf.com/latex/templates/xian-jiaotong-university-bachelor-thesis-latex-template/rdpykcmzdrjp)。
 
-该模板如需补充和更正，请向作者提出 issue。
+该模板如需补充和更正，或者版本更新，欢迎校友们向作者提出 issue或者pull requist。
 
 ## 使用方法
 
@@ -20,7 +20,8 @@
 
 ## 注意
 
-这个项目还没有在其他平台上测试。
+* 本项目是非官方的毕业设计模板，适用于2021级的毕业生。如需要官方模板，请联系你的导师。我们不对本模板所产生的的任何问题负责。
+* 这个项目还没有在其他平台上测试。
 
 ## Ack
 
