@@ -1,4 +1,5 @@
 # XJTU Bachelor thesis LaTeX template.
+[中文](https://github.com/1989Ryan/XJTU-Bachelor-Thesis-LaTeX-Template/blob/master/README_zh.md)
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
@@ -13,7 +14,8 @@ For supplements and corrections, please issue or take pull requist.
 
 ## Attention
 
-This project has not been tested on other platforms. 
+* This is an unofficial template and only suitable for undergraduate candidates from 2021. You should contact your advisor for the official template. We are not taking responsibility for any problem this template caused. 
+* This project has not been tested on other platforms. 
 
 ## Ack
 
