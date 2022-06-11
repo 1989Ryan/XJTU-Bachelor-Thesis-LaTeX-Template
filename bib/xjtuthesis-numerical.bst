@@ -30,7 +30,7 @@ INTEGERS {
   slash.for.extraction
   in.booktitle
   italic.jounal
-  bold.journal.volume
+  bold.journaltitle.volume
   show.missing.address.publisher
   show.url
   show.doi
@@ -48,7 +48,7 @@ FUNCTION {load.config}
   #1 'slash.for.extraction :=
   #0 'in.booktitle :=
   #0 'italic.jounal :=
-  #0 'bold.journal.volume :=
+  #0 'bold.journaltitle.volume :=
   #1 'show.missing.address.publisher :=
   #0 'show.missing.address.publisher :=
   #1 'show.url :=
@@ -66,7 +66,7 @@ ENTRY
     editor
     howpublished
     institution
-    journal
+    journaltitle
     key
     language
     mark
@@ -856,8 +856,8 @@ FUNCTION {format.series.vol.num.booktitle}
   if$
 }
 
-FUNCTION {format.journal}
-{ journal
+FUNCTION {format.journaltitle}
+{ journaltitle
   italic.jounal entry.lang lang.en = and
     'italicize
     'skip$
@@ -1098,9 +1098,9 @@ FUNCTION {format.pages}
   if$
 }
 
-FUNCTION {format.journal.volume}
+FUNCTION {format.journaltitle.volume}
 { volume empty$ not
-    { bold.journal.volume
+    { bold.journaltitle.volume
         { "\textbf{" volume * "}" * }
         { volume }
       if$
@@ -1109,14 +1109,14 @@ FUNCTION {format.journal.volume}
   if$
 }
 
-FUNCTION {format.journal.number}
+FUNCTION {format.journaltitle.number}
 { number empty$ not
     { "\penalty0 (" number * ")" * }
     { "" }
   if$
 }
 
-FUNCTION {format.journal.pages}
+FUNCTION {format.journaltitle.pages}
 { pages empty$
     { "" }
     { ":\penalty0 " pages hyphenate * }
@@ -1392,11 +1392,11 @@ FUNCTION {article}
   "J" set.entry.mark
   format.mark "" output.after
   new.block
-  format.journal "journal" output.check
-  format.date "year" output.check
-  format.journal.volume output
-  format.journal.number "" output.after
-  format.journal.pages "" output.after
+  format.journaltitle "journaltitle" output.check
+  format.year "year" output.check
+  format.journaltitle.volume output
+  format.journaltitle.number "" output.after
+  format.journaltitle.pages "" output.after
   format.urldate "" output.after
   format.url output
   format.doi output
@@ -1450,7 +1450,7 @@ FUNCTION {electronic}
 }
 
 FUNCTION {misc}
-{ journal empty$ not
+{ journaltitle empty$ not
     'article
     { booktitle empty$ not
         'incollection
